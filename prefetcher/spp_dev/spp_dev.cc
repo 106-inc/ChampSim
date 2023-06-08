@@ -1,5 +1,5 @@
 #include "spp_dev.h"
-
+#include <iostream>
 #include "cache.h"
 
 SIGNATURE_TABLE ST;
@@ -7,7 +7,11 @@ PATTERN_TABLE PT;
 PREFETCH_FILTER FILTER;
 GLOBAL_REGISTER GHR;
 
-void CACHE::prefetcher_initialize() {}
+using uint64_t = std::uint64_t;
+
+void CACHE::prefetcher_initialize() {
+  std::cout << "SPP_DEV" << std::endl;
+}
 
 void CACHE::prefetcher_cycle_operate() {}
 

@@ -1,6 +1,8 @@
 #ifndef SPP_H
 #define SPP_H
-
+#include <iostream>
+#include <cstdint>
+using namespace std;
 // SPP functional knobs
 #define LOOKAHEAD_ON
 #define FILTER_ON
@@ -13,6 +15,7 @@
 #else
 #define SPP_DP(x)
 #endif
+
 
 // Signature table parameters
 #define ST_SET 1
