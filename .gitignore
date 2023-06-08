@@ -15,3 +15,7 @@ tracer/pin/obj-intel64/
 
 vcpkg_installed/
 
+traces/
+compile_commands.json
+.cache/
+.vscode/
