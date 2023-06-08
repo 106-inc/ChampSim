@@ -13,3 +13,24 @@ obj/
 
 tracer/pin/obj-intel64/
 
+.csconfig/
+_configuration.mk
+
+**/__pycache__/
+*.pyc
+
+bin/
+
+**/*.o
+**/*.d
+
+test/000-test-main
+
+tracer/pin/obj-intel64/
+
+vcpkg_installed/
+
+traces/
+compile_commands.json
+.cache/
+.vscode/
