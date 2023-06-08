@@ -34,3 +34,5 @@ traces/
 compile_commands.json
 .cache/
 .vscode/
+
+Makefile
